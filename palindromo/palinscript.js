@@ -1,9 +1,9 @@
 'use strict';
 
-function palindromo(parola){
+function palindromo(){
 
 // prendo input utente
-parola = prompt('inserisci una parola: ');
+const parola = prompt('inserisci una parola: ');
 // dichiaro array
 const array = [];
 const arrayNoSpace = [];
@@ -22,7 +22,7 @@ for(let i = 0; i < parola.length; i++){
 }
 // inverto l'array
 for (j = arrayNoSpace.length - 1; j >= 0; j--) {
-    array.push(arrayNoSpace[i]);
+    array.push(arrayNoSpace[j]);
 }
 
 // valuto se la parola è la stessa o meno
