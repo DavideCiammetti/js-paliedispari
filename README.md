@@ -32,3 +32,16 @@ Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzion
 Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
+
+
+inizialmente chiedo all'utente se è dispari o pari poi creo 2 vaiabili alle quali andro ad attribuire 
+
+giocatore = random() ----> funzione per generare numeri random precedentemente creata 
+computer = random() -----> funzione per generare numeri random precedentemente creata 
+
+bisogna tenere a mente pero che puo uscire anche il numero 0
+
+successivamente andro a sommare i numeri 
+somma = computer + giocatore; 
+
+se il numero è pari tramite una furmula se(somma % 2 === 0) ---> allora sara pari altrimenti dispari e se corrisponde con la scelta del giocatore allora ha vinto o altrimenti perso 
