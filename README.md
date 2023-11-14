@@ -21,6 +21,10 @@ creare una stringa contenente i caratteri di questa parola e creare un altra str
 nel caso in cui le lettere dei 2 array fossero uguali allora sarebbe un palindromo altrimenti no
 con questa soluzione abbiamo anche risolto il problema degli spazi 
 
+a' 'a' 'a' 'a 
+0 1 2 3 4 5 6
+
+
 
 # Pari e Dispari
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
